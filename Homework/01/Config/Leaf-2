@@ -36,7 +36,7 @@ interface Ethernet1/1
   no shutdown
 
 interface Ethernet1/2
-  description -- DownLink Spine-2-e1/2
+  description -- UpLink Spine-2-e1/2
   no switchport
   ip address 10.2.2.3/31
   no shutdown
