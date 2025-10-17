@@ -99,15 +99,17 @@ interface loopback1
 
 hostname Leaf-1
 
-interface Ethernet1
-   description to-spine-1
-   no switchport
-   ip address 10.2.1.1/31
+interface Ethernet1/1
+  description -- UpLink Spine-1-e1/1
+  no switchport
+  ip address 10.2.1.1/31
+  no shutdown
 
-interface Ethernet2
-   description to-spine-2
-   no switchport
-   ip address 10.2.2.1/31
+interface Ethernet1/2
+  description -- UpLink Spine-2-e1/1
+  no switchport
+  ip address 10.2.2.1/31
+  no shutdown
    
 interface loopback2
   ip address 10.1.0.1/32
