@@ -4,4 +4,4 @@
 
 [02 Underlay. OSPF](Homework/02)
 
-[02 Underlay. IS-IS](Homework/03)
+[03 Underlay. IS-IS](Homework/03)
